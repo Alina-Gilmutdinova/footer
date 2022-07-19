@@ -34,17 +34,17 @@ h6 {
 }
 .footer__main {
    display: flex;
+   justify-content: space-between;
 }
 .footer__row {
 	display: flex;
    margin: 0px -15px;
+   
 }
 .footer__main {
    
 }
 ._container {
-   display: flex;
-   justify-content: space-between;
    max-width: 1050px;
    max-height: 519px;
    margin: 0 auto;
@@ -53,7 +53,6 @@ h6 {
 .footer__column {
    display: flex;
    flex-wrap: wrap;
-   padding: 15px 15px;
 	flex: 0 1 50%;
 }
 .footer__label {
@@ -104,6 +103,7 @@ h6 {
 .subscribe__body {
    margin: 0px 0px 0px 120px;
 }
+
 .subscribe__title__mini {
    font-size: 24px;
    color: #E5E5E5;
@@ -149,7 +149,38 @@ margin: 0px 0px 0px 33px;
    display: flex;
    align-items: center;
 }
-.social__item {
-   margin: 0px 0px 0px 48px;
-   
+.social__item:not(last-child) {
+   margin: 0px 48px 0px 0px;
+}
+.footer_line {
+   border: 1px solid #E5E5E5;
+   margin: 52px 0px 22px 0px;
+}
+.footer__container {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.footer__logo {
+font-size: 36px;
+line-height: 117%;
+color: #E5E5E5;
+}
+.footer_ellipce {
+   border: 1px solid #E5E5E5;
+   border-radius: 50%;
+   box-sizing: border-box;
+   width: 36px;
+   height: 36px;
+}
+.footer_vector {
+   background: #E5E5E5;
+   transform: matrix(0, -1, -1, 0, 0, 0);
+   width: 8.4px;
+   height: 13.8px;
+}
+.footer_years {
+   font-size: 24px;
+   line-height: 116%;
+   color: #E5E5E5;
 }
